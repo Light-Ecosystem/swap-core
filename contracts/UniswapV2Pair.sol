@@ -99,7 +99,7 @@ contract UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20 {
     function getFeeRateNumerator() external view returns (uint32) {
         return feeRateNumerator;
     }
-    // if fee is on, mint liquidity equivalent to 1/6th of the growth in sqrt(k)
+    // if fee is on, mint liquidity equivalent to 1/2 of the growth in sqrt(k)
     function _mintFee(uint112 _reserve0, uint112 _reserve1) private returns (bool feeOn) {
         address feeTo = IUniswapV2Factory(factory).feeTo();
         feeOn = feeTo != address(0);
