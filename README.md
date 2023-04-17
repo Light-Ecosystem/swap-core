@@ -4,10 +4,10 @@ Swap Core (https://github.com/Light-Ecosystem/swap-core) is an Ethereum-based de
 
 Based on Uniswap V2, the following features have been extended:
 
-- - Adjusted the proportion of transaction fees attributable to the community to 50%
-- - Support Whitelist to manage tradable assets, obtain access qualifications through voting by the community, and avoid non-performing assets from entering the trading market;
-- - Support fee dynamic adjustment, the community to control the transaction fee;
-- - Support trading pairs containing stHOPE to claim LT rewards;
+- Adjusted the proportion of transaction fees attributable to the community to 50%
+- Support Whitelist to manage tradable assets, obtain access qualifications through voting by the community, and avoid non-performing assets from entering the trading market;
+- Support fee dynamic adjustment, the community to control the transaction fee;
+- Support trading pairs containing stHOPE to claim LT rewards;
 
 At the same time, the Development Environment and deployment scripts have been upgraded and improved.
 
